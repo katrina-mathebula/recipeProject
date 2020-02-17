@@ -1,0 +1,42 @@
+ h3 {
+            text-decoration: underline;
+        }
+        
+        h2 {
+            color: #609f9f;
+        }
+        
+        .heading {
+            text-decoration-color: #609f9f;
+        }
+        
+      <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
+        
+        .column2
+        {
+            height:auto;
+            width: 50%;
+        }
+        
+        .jumbotron
+        {
+            background-color: #609f9f;
+            
+           
+        }
+        
+        h2 {
+            font-family: 'Merienda', cursive;
+        }
+        
+        h3 {
+            font-family: 'Merienda', cursive;
+        }
+        
+        h1 {
+            font-family: 'Merienda', cursive;
+        }
+        
+        .table-styles, td {
+  border: 1px solid black;
+}
