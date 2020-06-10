@@ -1,5 +1,19 @@
- h3 {
+
+
+
+.max-height{
+    min-height: calc(100vh - 76px);
+    background: url("../images/rolledCassata.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+h3 {
             text-decoration: underline;
+           
         }
         
         h2 {
@@ -7,7 +21,7 @@
         }
         
         .heading {
-            text-decoration-color: #609f9f;
+            color: white;
         }
         
       <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
@@ -21,6 +35,8 @@
         .jumbotron
         {
             background-color: #609f9f;
+        
+            
             
            
         }
@@ -35,8 +51,23 @@
         
         h1 {
             font-family: 'Merienda', cursive;
+            font-size: 2.8rem;
         }
         
         .table-styles, td {
   border: 1px solid black;
+}
+
+/* footer */
+.footer {
+  background: #333333;
+  text-align: center;
+}
+
+.footer-text {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: var(--letterSpacing);
+  margin-top: 1rem;
+  font-size: 0.85rem;
 }
